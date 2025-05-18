@@ -1,0 +1,6 @@
+pandas
+pyyaml
+sentence-transformers
+scikit-learn
+torch
+ollama-sdk  # (if you want to use Ollama's python sdk alternatively)

@@ -1,0 +1,20 @@
+id_column: "id"
+
+columns_to_compare:
+  - "address"
+  - "city"
+  - "pincode"
+
+threshold: 0.85
+
+column_weights:
+  address_similarity: 0.5
+  city_similarity: 0.3
+  pincode_similarity: 0.2
+
+similarity_methods:
+
+  - "cosine_similarity"
+  
+model_name: "all-MiniLM-L6-v2"
+device: "cpu"
