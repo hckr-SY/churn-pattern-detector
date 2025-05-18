@@ -5,7 +5,8 @@ This tool compares two datasets and detects row-level changes (churn) using sema
 ## Features
 - Sentence Transformer-based embeddings
 - Cosine similarity comparison
-- Optional address normalization with Libpostal
+- Summary on patterns of churn generated in output
+
 
 ## Setup
 ```bash
@@ -19,6 +20,7 @@ python main.py
 ```
 
 Output will be saved to `output/churn_results.csv`.
+Summary will be saved to `output/summary.txt.csv`
 
 ## Config
 Modify settings in `config/settings.yaml` to change model, device, or data columns.
